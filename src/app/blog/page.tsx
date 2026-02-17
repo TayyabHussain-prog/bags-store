@@ -5,11 +5,6 @@ import { Footer } from "@/components/layout/footer";
 import { blogPosts } from "@/lib/blog-posts";
 import { formatDate } from "@/lib/utils";
 
-// Add formatDate to utils first, or just inline it here for now
-function formatDateString(dateStr: string) {
-    return dateStr; // Mock data already has formatted strings
-}
-
 export default function BlogPage() {
     return (
         <div className="flex min-h-screen flex-col">
